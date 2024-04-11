@@ -46,14 +46,14 @@ export default {
 
     .pending {
         border-left: 12px solid #b73229;
-        background-color: #f44336;
+        background-color: #D2B48C;
         
     }
 
     .done {
         color: #ddd;
         border-left: 12px solid #0a8f08;
-        background-color: #4caf50;
+        background-color: #D2B48C;
         text-decoration: line-through;
     }
 
@@ -79,11 +79,11 @@ export default {
     }
 
     .pending .close:active {
-        background-color: #f44336;
+        background-color: #D2B48C;
         
     }
 
     .done .close:active {
-        background-color: #4caf50;
+        background-color: #D2B48C;
     }
 </style>
