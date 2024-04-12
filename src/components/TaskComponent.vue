@@ -47,11 +47,12 @@ export default {
     .pending {
         border-left: 12px solid #b73229;
         background-color: #D2B48C;
-        
+        font-weight: 600;
     }
 
     .done {
         color: #ddd;
+        font-weight: 600;
         border-left: 12px solid #0a8f08;
         background-color: #D2B48C;
         text-decoration: line-through;
